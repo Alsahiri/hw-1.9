@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Задача 1");
         int[] arr = generateRandomArray();
         int sum = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
